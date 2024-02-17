@@ -1,0 +1,263 @@
+@font-face {
+    font-family: regular;
+    src: url(fonts/sf-pro-display_regular\ \(1\).ttf);
+}
+
+@font-face {
+    font-family: regular-sm;
+    src: url(fonts/sf-pro-display_semibold.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.logo {
+    width: 18px;
+    height: 18px;
+}
+
+nav {
+    /* width: 100%; */
+    height: 45px;
+    background-color: rgb(29, 29, 31);
+}
+
+.navigation {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav-items {
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 27px;
+    margin: 10px -8px;
+    list-style: none;
+}
+
+.nav-items a {
+    position: relative;
+    color: rgba(250, 250, 252, 0.744);
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1;
+    font-family: 'Roboto', sans-serif;
+    padding: 0 8px;
+}
+
+
+.fa-solid {
+    font-size: 15px;
+}
+
+.nav-para {
+    background-color: #1d1d1f;
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    padding: 12px 0;
+}
+
+.nav-para span a {
+    text-decoration: none;
+    color: #0066CC;
+}
+
+.part-1 {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 80vh;
+    background-image: url(img/hero_iphone15pro__i70z9oz3hj2i_large.jpg);
+    background-position: center;
+}
+
+.text-part-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+    gap: 1vh;
+    top: 10%;
+    color: #fff;
+    font-family: regular;
+}
+
+.text-part-1 h1 {
+    font-size: 3vw;
+}
+
+.text-part-1 p {
+    font-size: 1.6vw;
+}
+
+.link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2vw;
+}
+
+.link a {
+    text-decoration: none;
+    color: rgb(26, 141, 242);
+    font-size: 1.2vw;
+}
+
+.link a:hover {
+    border-bottom: 1px solid rgb(26, 141, 242);
+}
+
+.part-2 {
+    background-image: url(img/Assets/hero_iphone15_announce__uuemlcwczn6u_largetall.jpg);
+}
+
+.text-part-2,
+.text-part-3 {
+    color: #333;
+}
+
+.text-part-3 {
+    top: 70%;
+}
+
+
+.part-3 {
+    margin-top: 10px;
+    background-image: url(img/hero_valentines_day_2024__dyne8c2no3ki_large.jpg);
+}
+
+.part-4 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 10px;
+    margin-top: 15px;
+    overflow-x: hidden;
+}
+
+.part-4-1 {
+    background-repeat: no-repeat;
+    background-image: url(img/promo_mbp__ek7p477bkp6q_large.jpg);
+}
+
+.part-4-2 {
+    background-image: url(img/Assets/promo_ipad__fioegapg12qi_large_2x.jpg);
+    background-repeat: no-repeat;
+    background-color: #fbfbfd;
+    background-size: 150%;
+}
+
+.part-4-3 {
+    background-repeat: no-repeat;
+    background-size: 150%;
+    background-image: url(img/Assets/promo_airpods_pro_order__d8xv36p4uwae_large_2x.jpg);
+}
+
+.text-part-4-3 {
+    color: white;
+}
+
+.part-4-4 {
+    background-repeat: no-repeat;
+    background-size: 160%;
+    background-image: url(img/Assets/tile_homepod_mini__b73w4z3ljymu_large_2x.jpg);
+}
+
+.part-4-5 {
+    background-repeat: no-repeat;
+    background-size: 150%;
+    background-image: url(img/Assets/promo_macbookair__fywl7i82fueu_large_2x.png);
+}
+
+.logo-set {
+    height: 30px;
+}
+
+.part-4-6 {
+    background-repeat: no-repeat;
+    background-size: 150%;
+    overflow-x: hidden;
+    background-image: url(img/Assets/promo_iphone_tradein__bugw15ka691e_large_2x.jpg);
+}
+
+.bg-color {
+    background-color: rgb(245, 245, 247);
+}
+
+.footer-sec {
+    width: 60%;
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+
+.footer-ps,
+.footer-flex-section {
+    color: rgba(0, 0, 0, 0.445);
+    font-family: regular;
+    font-size: 12px;
+}
+
+.center-divs {
+    margin-top: 10px;
+}
+
+.br-line {
+    width: 100%;
+    height: 1px;
+    background-color: rgba(0, 0, 0, 0.281);
+}
+
+.footer-h {
+    color: rgba(0, 0, 0, 0.701);
+}
+
+.footer-flex-section {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 1fr;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.footer-flex-section a,
+.footer-last a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.553);
+}
+
+.footer-flex,
+.footer-flex-last {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.footer-flex-last {
+    justify-content: space-between;
+}
+
+
+ul {
+    list-style: none;
+
+}
+
+.footer-list {
+    line-height: 2;
+}
